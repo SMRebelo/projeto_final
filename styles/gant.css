@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw + 15px;
+    margin: 2em;
+    margin-top: 4em;
+    gap: 4em;
+}
+.imgCont1{
+    display: inline-block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.imgCont1 > img{
+  height: 300px;
+}
+.imgCont2{
+    display: inline-block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.imgCont2 > img{
+  height: 200px;
+}
