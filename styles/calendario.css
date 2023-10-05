@@ -12,6 +12,7 @@
 }
 .imgCont{
     display: inline-block;
+    width: 100%;
 }
 .imgCont > img{
   height: 350px;
